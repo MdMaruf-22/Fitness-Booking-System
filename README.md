@@ -151,9 +151,8 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=no-reply@example.com
 MAIL_FROM_NAME="Fitness Booking"
 
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_secret
-GOOGLE_REDIRECT_URI=http://your-app.test/google/callback
+GOOGLE_APPLICATION_CREDENTIALS=path_to_your_json_file
+GOOGLE_CALENDAR_ID=google_calendar_id
 ```
 
 4. **Run Migrations and Seeders**
